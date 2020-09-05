@@ -7,7 +7,10 @@ const instance = axios.create({
 
 // Patrón Adaptador
 const adapter = {
-  get: url => instance.get(url)
+  get: url => instance.get(url),
+  post: (url, body) => instance.post(url, body),
+  put: (url, body) => instance.put(url, body),
+  delete: url => instance.delete(url)
 }
 
 // En vez de exportar instance, se exporta adapter
