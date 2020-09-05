@@ -1,7 +1,5 @@
 # Patrones de Diseños en JS
-============================
 
-============================
 ## Patrón de Creación
 Nos va a ayudar a crear objetos e instancias de objetos
 
@@ -21,6 +19,7 @@ Ejemplo: moduloRevelador.js
 Ejemplo: prototipo.js
 
 ## Funcionales
+
 ### Closures
 Ejemplo: closures.js
 
