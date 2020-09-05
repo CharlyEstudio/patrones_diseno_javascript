@@ -56,14 +56,14 @@ Ejemplo: observador.js
 
 ### Mediador
 Es muy parecido al Observador, la diferencia, de estar escuchando entre ellos, estos lo que haran es suscribirse al mediador y este, lo despachará; una librería que que implementa este patron es redux!
-** Este es genial para usarlo **
-** Buscar la forma de aplicarlo en donde se pueda **
+*Este es genial para usarlo*
+*Buscar la forma de aplicarlo en donde se pueda*
 Ejemplo: mediador.js
 
 ### Comando
 Nos entrega unificada para que podamos ejecutar los métodos de un objeto en particular, de esta manera en vez de llamar un método del objeto, lo que haremos será llamar a un interfaz o algún método que será ejecutar, execute, ram... Donde en ese método o función le indicaremos el método o función que nosotros queremos ejecutar seguido de los argumentos que nosotros le vamos a entregar.
-** Este es genial para usarlo **
-** Se puede aplicar en la mayoría de los casos **
+*Este es genial para usarlo*
+*Se puede aplicar en la mayoría de los casos*
 Ejemplo: comando.js
 
 ### Cadena de Responsabilidad
